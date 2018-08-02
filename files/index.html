@@ -1,0 +1,194 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+  <!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+  <!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+  <!--[if IE 8]><html class="preIE9"><![endif]-->
+  <!--[if gte IE 9]><!-->
+<html>
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FF.0.2: Menu</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="fflash02.js"></script>
+    <script src="library.js"></script>
+
+  </head>
+
+
+  <body class="flexParent">
+    <!-- Container -->
+      <div class="center">
+
+        <!-- Menu -->
+          <div id="menu">
+            <!-- Menu Icon -->  
+            <div id="burgerMenu" class="box-shadow-menu">
+              
+            </div><!-- /Menu Icon -->
+            <!-- Menu List -->
+            <ul id="menuList">
+              <li class="navBtn" data-screen-link="library">Library</li>
+              <li class="navBtn menuCurrent" data-screen-link="flashcard">Flashcard</li>
+              <li class="navBtn" data-screen-link="settings">Settings</li>
+            </ul><!-- /Menu List -->
+          </div><!-- /Menu -->
+
+        <!-- Library Main Div -->  
+        <div id="libraryWrapper" class="mainDivWrapper">
+          <!-- Library Controls Panel -->  
+          <div id="libDiv1" class="libDivs">
+            <div id="libCtrl1" class="libCtrls">
+              <h3>Cards</h3>
+            </div>
+            <div id="libCtrl2" class="libCtrls">
+              <h3>Decks</h3>
+            </div>
+          </div><!-- /Library Controls Panel -->  
+          
+          <!-- Library Display Panel -->  
+          <div id="libDiv2" class="libDivs">
+            <div class="cardTile activeTile">Card 1</div>
+            <div class="cardTile">Card 2</div>
+            <div class="cardTile">Card 3</div>
+          </div><!-- /Library Display Panel -->  
+
+        </div><!-- /Library Main Div -->
+
+        <!-- FlashCard Main Div -->  
+        <div id="flashcardWrapper" class="mainDivWrapper">
+          <!-- Flashcard Left Div - Left Arrow  -->
+          <div class="child left-overlay side-panel" data="left">
+            <div>&#9664;</div>
+          </div><!-- /Flashcard - Left Div - Left Arrow  -->
+
+          <!-- Flashcard - Mid Div - Card View  -->
+          <div id="mainDiv" class="mid-overlay">
+
+            <!-- FlashCard -->
+            
+              <div id="cardFront" class="child cardSide">
+                <p id="cardFrontTitle"></p>
+              </div>
+              <div id="cardBack"class="child cardSide hideSide">
+                <p>Da Back!</p>
+              </div><!-- /FlashCard -->
+            
+
+          </div><!-- /Card View Div -->
+          <!-- Flashcard Right Div - Right Arrow  -->
+          <div class="child right-overlay side-panel" data="right">
+            <div>&#9654;</div>
+          </div><!-- /Flashcard Right Div - Right Arrow  -->
+        </div><!-- /FlashCard Main Div -->
+
+        <!-- Settings Main Div -->  
+        <div id="settingsWrapper" class="mainDivWrapper">
+          Settings
+        </div><!-- /Settings Main Div -->
+
+      </div><!-- /Container -->
+    
+  </body>
+
+
+=======
+<!DOCTYPE html>
+  <!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+  <!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+  <!--[if IE 8]><html class="preIE9"><![endif]-->
+  <!--[if gte IE 9]><!-->
+<html>
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FF.0.2: Menu</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="fflash02.js"></script>
+    <script src="library.js"></script>
+
+  </head>
+
+
+  <body class="flexParent">
+    <!-- Container -->
+      <div class="center">
+
+        <!-- Menu -->
+          <div id="menu">
+            <!-- Menu Icon -->  
+            <div id="burgerMenu" class="box-shadow-menu">
+              
+            </div><!-- /Menu Icon -->
+            <!-- Menu List -->
+            <ul id="menuList">
+              <li class="navBtn" data-screen-link="library">Library</li>
+              <li class="navBtn menuCurrent" data-screen-link="flashcard">Flashcard</li>
+              <li class="navBtn" data-screen-link="settings">Settings</li>
+            </ul><!-- /Menu List -->
+          </div><!-- /Menu -->
+
+        <!-- Library Main Div -->  
+        <div id="libraryWrapper" class="mainDivWrapper">
+          <!-- Library Controls Panel -->  
+          <div id="libDiv1" class="libDivs">
+            <div id="libCtrl1" class="libCtrls">
+              <h3>Cards</h3>
+            </div>
+            <div id="libCtrl2" class="libCtrls">
+              <h3>Decks</h3>
+            </div>
+          </div><!-- /Library Controls Panel -->  
+          
+          <!-- Library Display Panel -->  
+          <div id="libDiv2" class="libDivs">
+            <div class="cardTile activeTile">Card 1</div>
+            <div class="cardTile">Card 2</div>
+            <div class="cardTile">Card 3</div>
+          </div><!-- /Library Display Panel -->  
+
+        </div><!-- /Library Main Div -->
+
+        <!-- FlashCard Main Div -->  
+        <div id="flashcardWrapper" class="mainDivWrapper">
+          <!-- Flashcard Left Div - Left Arrow  -->
+          <div class="child left-overlay side-panel" data="left">
+            <div>&#9664;</div>
+          </div><!-- /Flashcard - Left Div - Left Arrow  -->
+
+          <!-- Flashcard - Mid Div - Card View  -->
+          <div id="mainDiv" class="mid-overlay">
+
+            <!-- FlashCard -->
+            
+              <div id="cardFront" class="child cardSide">
+                <p id="cardFrontTitle"></p>
+              </div>
+              <div id="cardBack"class="child cardSide hideSide">
+                <p>Da Back!</p>
+              </div><!-- /FlashCard -->
+            
+
+          </div><!-- /Card View Div -->
+          <!-- Flashcard Right Div - Right Arrow  -->
+          <div class="child right-overlay side-panel" data="right">
+            <div>&#9654;</div>
+          </div><!-- /Flashcard Right Div - Right Arrow  -->
+        </div><!-- /FlashCard Main Div -->
+
+        <!-- Settings Main Div -->  
+        <div id="settingsWrapper" class="mainDivWrapper">
+          Settings
+        </div><!-- /Settings Main Div -->
+
+      </div><!-- /Container -->
+    
+  </body>
+
+
+>>>>>>> 1e698d3e105d991d8780130d31d1e2df83e61497
+</html>
